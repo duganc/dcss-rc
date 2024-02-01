@@ -78,6 +78,7 @@ default_manual_training = true
 ae += <curare-tipped dart
 explore_stop += greedy_pickup,stairs,shops,altars,portals,branches,runed_doors
 autofight_stop = 65
+show_more = false
 
 slot += Passwall:P
 slot += Blink:B
@@ -91,6 +92,7 @@ autofight_nomove_fires = false
 
 # Notes
 note_hp_percent = 15
+dump_message_count = 10000
 
 # Gems
 always_show_gems = true
